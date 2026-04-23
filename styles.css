@@ -340,10 +340,10 @@ ul { list-style: none; }
 .bg-desinfeccion { background-image: url('img/sanitizacion.jpg'); background-size: cover; } */
 
 /* Card background emoji fallbacks */
-.bg-fumigacion::before  { content: '🦟'; font-size: 5rem; opacity: .25; }
-.bg-lavado::before      { content: '🛋️'; font-size: 5rem; opacity: .25; }
-.bg-auto::before        { content: '🚗'; font-size: 5rem; opacity: .25; }
-.bg-desinfeccion::before{ content: '🧴'; font-size: 5rem; opacity: .25; }
+.bg-fumigacion::before  { content: '🦟'; font-size: 5.5rem; opacity: 1; position: relative; z-index: 2; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3)); }
+.bg-lavado::before      { content: '🛋️'; font-size: 5.5rem; opacity: 1; position: relative; z-index: 2; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3)); }
+.bg-auto::before        { content: '🚗'; font-size: 5.5rem; opacity: 1; position: relative; z-index: 2; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3)); }
+.bg-desinfeccion::before{ content: '🧴'; font-size: 5.5rem; opacity: 1; position: relative; z-index: 2; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3)); }
 
 .service-body  { padding: 28px; display: flex; flex-direction: column; flex: 1; gap: 12px; }
 .service-icon-wrap {
